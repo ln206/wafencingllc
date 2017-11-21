@@ -10,14 +10,19 @@ $(document).ready(function(){
             window.location.hash = target;
         });
     });
+
+    $('.lazy').Lazy();
+
+    var gallery_api = jQuery("#gallery").unitegallery();
+    gallery_api.play(); 
 });
 
 // var shiftWindow = function() { scrollBy(0, -50) };
 // if (location.hash) shiftWindow();
 // window.addEventListener("hashchange", shiftWindow);
 
-var gallery_api;
-jQuery(document).ready(function(){ 
-    gallery_api = jQuery("#gallery").unitegallery();
-    gallery_api.play(); 
-}); 
+// var gallery_api;
+// jQuery(document).ready(function(){ 
+//     gallery_api = jQuery("#gallery").unitegallery();
+//     gallery_api.play(); 
+// }); 
