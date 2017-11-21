@@ -38,13 +38,16 @@ Author's custom styles
 }
 
 .section-padding {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  /* margin-top: 40px;
+  margin-bottom: 20px; */
 }
 
 .section-title {
   margin-bottom: 15px;
 }
+
+.blue-text {
+  color: #1D80A5;
 
 /* .bold-text {
   font-weight: bold;
