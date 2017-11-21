@@ -8,7 +8,7 @@ Author's custom styles
 .bgimage {
   width:100%;
   height:500px;
-  /* background: url('../img/hero_image.png'); */
+  background: url('../img/hero_image.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;

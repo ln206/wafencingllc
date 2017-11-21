@@ -11,10 +11,7 @@ $(document).ready(function(){
         });
     });
 
-    $('.lazy').lazy();
-
-    // var gallery_api = jQuery("#gallery").unitegallery();
-    // gallery_api.play(); 
+    jQuery("#gallery").unitegallery();
 });
 
 // var shiftWindow = function() { scrollBy(0, -50) };
