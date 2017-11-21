@@ -11,10 +11,12 @@ $(document).ready(function(){
         });
     });
 
-    $('.lazy').Lazy();
+    $('.lazy').lazy({
+        placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7..."
+    });
 
-    var gallery_api = jQuery("#gallery").unitegallery();
-    gallery_api.play(); 
+    // var gallery_api = jQuery("#gallery").unitegallery();
+    // gallery_api.play(); 
 });
 
 // var shiftWindow = function() { scrollBy(0, -50) };
