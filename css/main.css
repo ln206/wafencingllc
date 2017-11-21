@@ -4,6 +4,11 @@
 Author's custom styles
 ========================================================================== */
 
+body { padding-top: 40px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
 /* HERO */
 .bgimage {
   width:100%;
@@ -13,7 +18,6 @@ Author's custom styles
   background-position: center;
   background-size:cover;
   background-attachment: fixed;
-  margin-top: 50px;
 }
 
 /* Place text in the middle of the image */
