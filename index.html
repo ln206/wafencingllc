@@ -20,37 +20,44 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
         <!-- NAV BAR -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#service">Service</a></li>
+                      <li><a href="#gallery-section">Gallery</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+              </div>
+            </div>
         </nav>
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
+        <section class="bgimage">
           <div class="container">
-            <h1>WA FENCING, LLC</h1>
-            <p>Welcome to WA FENCING, LLC, proudly serving the local area! We have quickly built a strong rapport with a customer base. 
-              We specialize in anything decks and fences, from building, installations, or repairs we are the company for you. We strive 
-              to surpass your expectations, completing a project you're sure to love. Contact WA FENCING, LLC, today for a choice you won't regret!</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact us</a></p>
+            <div class="row">
+              <div class="col-md-8 col-xs-12 hero-text">
+                <h1 class="text-center">WA FENCING, LLC</h1>
+                <p>Welcome to WA FENCING, LLC, proudly serving the local area! We have quickly built a strong rapport with a customer base. 
+                    We specialize in anything decks and fences, from building, installations, or repairs we are the company for you. We strive 
+                    to surpass your expectations, completing a project you're sure to love. Contact WA FENCING, LLC, today for a choice you won't regret!</p>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
 
+        <!-- Serivice -->
         <div class="container">
-          <!-- Service -->
-          <div class="row">
-            <div class="col-md-12">
+          <div class="row section-padding" id="service">
+            <div class="col-md-12 section-title">
               <h1 class="text-center">Services Offered</h1>
             </div>
             <div class="col-md-4">
@@ -74,20 +81,23 @@
             </div>
           </div>
 
-          <!-- Gallery -->
-          <div class="row">
-              <div class="col-md-12">
+        </div> <!-- /service -->    
+
+        <!-- Gallery -->
+        <div class="container-fluid">
+           <div class="row section-padding" id="gallery-section">
+              <div class="col-md-12 section-title">
                 <h1 class="text-center">Gallery</h1>
               </div>
               <br/> <br/>
               <div class="col-md-12">
                   <div id="gallery" style="display:none;" class="center-block">
                       
-                        <img alt="Image 1 Title" src="img/IMG_0001.jpg"
-                          data-image="img/IMG_0001.jpg">
-                        
-                        <img alt="Image 2 Title" src="img/IMG_0002.jpg"
-                          data-image="img/IMG_0002.jpg">
+                          <img alt="Image 1 Title" src="img/IMG_0001.jpg"
+                            data-image="img/IMG_0001.jpg">
+                          
+                          <img alt="Image 2 Title" src="img/IMG_0002.jpg"
+                            data-image="img/IMG_0002.jpg">
 
                           <img alt="Image 2 Title" src="img/IMG_0003.jpg"
                           data-image="img/IMG_0003.jpg">
@@ -188,13 +198,15 @@
                   </div>
               </div>
             </div>
+        </div>
 
-          <hr>
-
-          <footer>
-            <p>&copy; WA FENCING, LLC 2017</p>
-          </footer>
-        </div> <!-- /container -->        
+        <!-- footer -->
+        <div class="container">
+            <hr />
+            <footer>
+                <p>&copy; WA FENCING, LLC 2017</p>
+              </footer>
+        </div>
     
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -204,15 +216,5 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
     </body>
 </html>
