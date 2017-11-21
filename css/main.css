@@ -46,14 +46,19 @@ Author's custom styles
   margin-bottom: 15px;
 }
 
-/* Gallery */
-#gallery-section {
-  background: #D3D3D3;
-}
+/* .bold-text {
+  font-weight: bold;
+  text-decoration: underline;
+} */
 
-#gallery {
+/* Gallery */
+/* #gallery-section {
+  background: #000000;
+} */
+
+/* #gallery {
   margin-bottom: 40px;
-}
+} */
 
 
 
