@@ -11,9 +11,7 @@ $(document).ready(function(){
         });
     });
 
-    $('.lazy').lazy({
-        placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7..."
-    });
+    $('.lazy').lazy();
 
     // var gallery_api = jQuery("#gallery").unitegallery();
     // gallery_api.play(); 
